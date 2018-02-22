@@ -1,0 +1,29 @@
+﻿{
+  "Install": {
+    "Pages": [
+      {
+        "architectureDiagram": "dist/Apps/Partner/Released/Alfur/Web/Images/annata-flow-2.png",
+        "displayname": "Getting Started",
+        "list1": [
+          "$translate(INIT_GETTING_STARTED_AZURE_SUBSCRIPTION)",
+          "$translate(INIT_GETTING_STARTED_PBI_DESKTOP)",
+          "$translate(INIT_GETTING_STARTED_PBI_PRO)"
+        ],
+        "list2": [
+          "$translate(INIT_GETTING_STARTED_CLOUD_SOLUTION)",
+          "$translate(INIT_GETTING_STARTED_CONNECT_AS_PBI)"
+        ],
+        "name": "$SiteCommon$/pages-gallery/getting-started.html",
+        //"templateName": "$translate(AX_COLLECTIONS_TEMPLATE_TITLE)",
+        "templateName": "$translate(ANNATA_PBST_0001_GETTING_STARTED_HEADER_ENG)"
+      },
+      // AzurePage
+      {
+        "name": "$SiteCommon$/pages-gallery/azure-login.html",
+        "displayname": "Login",
+        "pricingUrl": "http://url",
+        "pricingCost": "Cost goes here"
+      }
+    ]
+  }
+}
